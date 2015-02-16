@@ -1,0 +1,5 @@
+name = GSE Vibrant
+description = A vibrant version of the Classic theme modified for GSE use
+screenshot = screenshot.png
+
+css[] = gsevibrant.css

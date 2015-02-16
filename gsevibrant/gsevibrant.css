@@ -1,0 +1,421 @@
+/*gse flavors: vibrant*/
+
+/* color change: from blue #4384C4 to GSE crimson #A51C30*/
+.sidebar .block, .front #content-column .block, .node-person .block-inner, .comment-wrapper {
+    border-top: 3px solid #78777B;
+}
+
+/*	header */
+.block-boxes-os_boxes_site_logo img{
+	height: auto;
+}
+
+#header {
+    background: none repeat scroll 0 0 #F3F3F1; 
+}
+
+#boxes-box-site_info {
+    min-height: 60px;
+}
+	
+#boxes-box-site_info, #boxes-box-site_info a {
+    color: #78777B;
+}
+
+ul.nice-menu ul {
+    top: 2.9em;
+	border-top-style:none;
+}
+
+ul.nice-menu ul  li{
+	width: auto;
+}
+
+#menu-bar ul.nice-menu  ul li a {
+	padding: 5px;
+}
+
+.region-header-third ul.nice-menu li {
+	margin-left: 10px;
+}
+
+.region-header-third ul.nice-menu a {
+    color: #D16103;
+    font-size: 12px;  
+}
+
+/* navigation */
+#menu-bar {
+    background-color: #A51C30;
+    padding: 2px 0;
+}
+
+#menu-bar ul.nice-menu a {
+    color: #FFFFFF;
+	font-size: 19px;
+}
+
+
+#menu-bar ul.nice-menu .menuparent ul li a:hover, 
+#menu-bar ul.nice-menu .menuparent ul li a.active {
+	color: #ffffff;
+}
+
+#menu-bar ul.nice-menu .menuparent ul li a:hover{
+	text-decoration: underline!important;
+}
+
+#menu-bar ul.menu ul ul {
+    background-color: #7B272B;
+}
+
+#menu-bar ul.nice-menu .menuparent a:hover, #menu-bar ul.nice-menu .menuparent a.active {
+    background-color: #7B272B;
+}
+
+#menu-bar ul.nice-menu a.active, #menu-bar ul.nice-menu a:hover {
+    background-color: #7B272B;
+}
+
+#menu-bar ul.nice-menu .menuparent a {
+    background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/menu_down_arrow_white.gif") no-repeat scroll right center transparent;
+}
+
+/* homepage book title */
+h2.block-title {
+	padding: .8em 0; 
+	color: #A51C30; 
+}
+
+/* homepage list styles */
+#columns .block  ul.contact-us,
+#columns .block  ul.resource-by-audience,
+#columns .block  ul.related-info,
+#columns .block  ul.system-status,
+#columns .block  ul.service-center-box,
+#columns .block  ul.browse-by-category 
+ {
+	list-style-type: none;
+	line-height: 2.5em;
+	margin-left: 5px;
+} 
+
+#columns .block  div.contact-us-tagline .line1 {
+	font-size:12px; 
+	text-transform:uppercase; 
+	font-weight:bold
+}
+
+#columns .block  div.contact-us-tagline .line2{
+	text-align:right; 
+	font-style:italic; 
+	margin-top:-5px; 
+	font-size:12px
+}
+
+#columns .block  ul.contact-us  li,
+#columns .block  ul.resource-by-audience li,
+#columns .block  ul.related-info li,
+#columns .block  ul.system-status li,
+#columns .block  ul.service-center-box li,
+#columns .block  ul.browse-by-category li{
+	border-bottom: 1px solid #F3F3F1; 
+}
+
+#columns .block  ul.contact-us  li a,
+#columns .block  ul.resource-by-audience li a,
+#columns .block  ul.related-info li a,
+#columns .block  ul.service-center-box li a,
+#columns .block  ul.browse-by-category li a{ 
+	display: block;
+	width: 100%;
+}
+
+#columns .block  ul  li a[title="Call Us"] { 
+	background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/call-us-vib-thumb.png") no-repeat center right;
+}
+
+#columns .block  ul  li a[title="Email Us"] { 
+	background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/email-us-vib-thumb.png") no-repeat center right;
+}
+
+#columns .block  ul  li a[title="Visit Us In Person"] { 
+	background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/visit-us-in-person-vib-thumb.png") no-repeat center right;
+}
+
+#columns .block  ul  li a[title="Where We Are"] { 
+	background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/where-we-are-vib-thumb.png") no-repeat center right;
+}
+
+#columns .block  ul  li a[title="Report A Problem"] { 
+	background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/report-a-problem-vib-thumb.png") no-repeat center right;
+}
+
+#columns .block  ul  li a[title="24/7 Self-Service"] { 
+	background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/24-7-vib-thumb.png") no-repeat center right;
+}
+
+#columns .block  ul.resource-by-audience  li a,
+#columns .block  ul.browse-by-category  li a{ 
+	background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/gray-arrow-thumb.png") no-repeat center right;
+}
+
+/*
+#columns .block  ul.service-center-box  li.service-center-home a{ 
+	background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/blue-arrow-right-thumb.png") no-repeat center right;
+}
+*/
+#columns .block  ul.service-center-box {
+	margin-left:0; 
+	border: 1px dotted #f3f3f1;
+}
+
+#columns .block  ul.service-center-box li{
+	padding-left: 5px; 
+} 
+
+#columns .block  ul.service-center-box li.service-center-home {
+	background-color: #f3f3f1; 
+	padding-left: 5px; 
+	line-height: 40px;
+} 
+
+#columns .block  ul.service-center-box li.service-center-home a {
+	font-weight:bold; 
+}
+
+#columns .block  ul.system-status  li.normal { 
+	background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/green-arrow-thumb.png") no-repeat center right;
+}
+
+#columns .block  ul.system-status  li.alert { 
+	background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/alert-thumb.png") no-repeat center right;
+}
+
+/* navigation non-homepage */
+.section-nav .menu-depth-1 > a {
+    background-color: #A51C30 !important;
+}
+
+.section-nav .expanded.menu-depth-2 > a {
+    background-color: #D16103;
+}
+
+/* homepage service block*/
+#services-block  .views-row a {
+    float: left;
+    margin: 15px 4%;
+    padding-top: 70px;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+}
+
+#services-block  .views-row-2, 
+#services-block  .views-row-4{
+	clear:left;
+}
+
+#services-block  .views-row  a.icon-account {
+    background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/accounts-vib.png") no-repeat 50% 0px;
+}
+
+#services-block  .views-row  a.icon-storage {
+    background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/backingup-vib.png") no-repeat 50% 0px;
+}
+
+#services-block  .views-row  a.icon-academic-technology {
+    background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/academic-technology-vib.png") no-repeat 50% 0px;
+}
+
+#services-block  .views-row  a.icon-email-calendar {
+    background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/email-calendar-vib.png") no-repeat 50% 0px;
+}
+
+#services-block  .views-row  a.icon-secure-computing {
+    background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/secure-computing-vib.png") no-repeat 50% 0px;
+}
+
+#services-block  .views-row  a.icon-business-system {
+    background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/business-system-vib.png") no-repeat 50% 0px;
+}
+
+#services-block  .views-row  a.icon-project-management{
+    background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/project-management-vib.png") no-repeat 50% 0px;
+}
+
+#services-block  .views-row  a.icon-web-app-dev {
+    background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/web-app-dev-vib.png") no-repeat 50% 0px;
+}
+
+#services-block  .views-row  a.icon-research-technology {
+    background: url("/profiles/openscholar/themes/hwpi_classic/flavors/gsevibrant/images/research-technology-vib.png") no-repeat 50% 0px;
+}
+
+h1#page-title{
+	font-size: 28px;
+}	
+
+#content-column .field-name-body h2 {
+    font-size: 22px;
+}
+
+.not-front #content-column {
+    font-size: 14px;
+}
+
+h2 {
+	color: #a51c30;
+}	
+
+h3 {
+	color: #c4961a;
+}
+
+/*frontpage layout overwrite (for) custom slideshow layout*/
+.front.one-sidebar.sidebar-second .region-sidebar-second {
+    margin-left: -220px;
+    width: 220px;
+}
+
+.front.one-sidebar.sidebar-second .content-inner {
+    margin-left: 0;
+    margin-right: 235px;
+}
+
+.front .content-left.content-right #content-panels .region-content-first {
+    width: 30%;
+}
+
+.front .content-left.content-right #content-panels .region-content-second {
+    width: 70%;
+}
+
+.front #layout_16_9_side .hero  img {
+    margin-bottom: 0;
+    position:relative;
+	float: right;
+    width: 70%;
+    z-index: 2;
+}
+
+.front #layout_16_9_side .hero-copy {
+    -moz-box-sizing: border-box;
+    border-radius: 0 0 0 0;
+    padding: 25px 10px 0 0;
+	width: 25%;
+	margin:0;
+	text-align:left;
+	float:left;
+}
+
+.front #layout_16_9_side .hero {
+    border: medium none;
+    border-radius: 0 0 0 0;
+    min-height: 305px;
+    position: relative;
+    z-index: 2;
+	background-color: #ffffff;
+}
+
+.front #layout_16_9_side .hero-copy h2 {
+/*removed the text shadow style*/
+	text-shadow: none;
+	font-size: 24px;
+	line-height: 28px;
+	font-family: helvetica,​arial,​verdana,​sans-serif;
+}   
+
+.front .hero-copy h2 a, .hero-copy h2 a:visited {
+    color: #a51c30;
+}
+
+.front .hero-copy p a, .hero-copy p a:visited {
+    color: #1e1e1e;
+	display:inline-block;
+	padding-top: 10px;
+}
+
+.front #layout_16_9_side .hero-copy p {
+	font: 14px/20px arial,sans-serif;
+}
+
+.front #layout_16_9_side .rslides_tabs {
+    float: left;
+    margin-top: -30px;
+	padding: 0 10px 0 0;
+	left: 0
+}	 
+
+.lt-ie9 .front #layout_16_9_side .rslides_tabs {
+	position:relative; 
+	top: auto; 
+}
+
+.front .rslides_tabs li {
+	background: none repeat scroll 0 0 rgb(204, 204, 204); /*for IE*/
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2); 
+}
+
+.front.one-sidebar.sidebar-second #content-panels {
+    border-right:none;
+}
+
+.front .content-left.content-right .region-content-second .region-inner {
+	border-right: 1px solid #e7e7e7;
+	padding-right: 15px;
+}
+
+.front #content-panels .block-inner {
+	margin-top: 0px;
+}
+
+.front #content-column h2 {
+	margin-bottom: 0px;
+}
+	
+.note, .os-gse-note {
+	font-size:12px;
+	background-color:#f3f3f2; 
+	margin-top: 0px; 
+	padding-left: 5px; 
+	font-style:italic; 
+	line-height: 25px;
+}
+
+.os-gse-note-alert {
+	line-height:16px; 
+	padding:2px; 
+	background:#ffb547;
+}
+/*image styles*/
+.os-gse-float-left span img{
+	float:left;
+	margin-right: 15px;  
+	margin-top: 4px;
+}
+
+.os-gse-shadow span img,
+div.os-gse-shadow {
+	border: 5px solid #FFFFFF; 
+	border-radius: 2px 2px 2px 2px;     
+	box-shadow: 1px 2px 8px rgba(120, 119, 123, 0.5);
+}
+
+/*overwrite os global style for images with right padding*/
+.file-os-files-large, .file-os-files-xlarge, .file-os-files-xxlarge, .file-os-files-small, .file-os-files-med {
+    padding-right: 0!important;
+}
+/*END frontpage layout overwrite (for) custom slideshow layout*/
+
+.os-gse-service-category-label {
+	margin-top: 25px; 
+}
+
+.os-gse-service-category-desc {
+	font-size: 85%; 
+	line-height: 20px; 
+	margin-top: -10px;
+}
+
+	
